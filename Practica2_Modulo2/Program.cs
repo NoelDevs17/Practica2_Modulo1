@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, Noel!");
+﻿using Practica2_Modulo1.Entidades;
+
+static void Main(string[] args)
+{
+    Banco banco1 = new Banco();
+    banco1.Operar();
+    banco1.DepositosTotales();
+    Console.ReadKey();
+}
